@@ -1,0 +1,12 @@
+#pragma once
+#include <phnt_windows.h>
+#include <phnt.h>
+#include <iostream>
+#include <vector>
+#include "util.h"
+#include "config.h"
+#include "antianalysis.hpp"
+#include "wmi.h"
+#include "ExceptionWrapper.hpp"
+#include "UACInterface.hpp"
+#include "Shell32Wrapper.hpp"

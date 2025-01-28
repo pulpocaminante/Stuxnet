@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Modules">
+      <UniqueIdentifier>{1ae95c95-e3fb-4264-a2d1-ed261749acbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resources">
+      <UniqueIdentifier>{c8d9822d-1f4e-4daa-8ca8-d127aa96306d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MiniWMI">
+      <UniqueIdentifier>{6fe60842-20aa-44cb-af69-e00fb82dff0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{305d8987-e072-4d92-b564-5a33072d760a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interfaces">
+      <UniqueIdentifier>{27444c10-a73b-4148-999f-93e69445ac0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Wrappers">
+      <UniqueIdentifier>{83097a91-9eab-4bac-b918-acc85f344e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Configuration">
+      <UniqueIdentifier>{43a269b2-4c8c-44af-8395-833d63927092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pool">
+      <UniqueIdentifier>{aca1cc6c-4381-46f6-ac4b-8519de440dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interfaces\WMI">
+      <UniqueIdentifier>{d6f30deb-07c0-4864-98da-be476c5e9820}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wmi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="wdk.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wmi.h">
+      <Filter>Header Files\MiniWMI</Filter>
+    </ClInclude>
+    <ClInclude Include="wmi_defs.h">
+      <Filter>Header Files\MiniWMI</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAnalysis.hpp">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.hpp">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ComWrapper.hpp">
+      <Filter>Header Files\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportInterface.hpp">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell32Wrapper.hpp">
+      <Filter>Header Files\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionWrapper.hpp">
+      <Filter>Header Files\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupAPIWrapper.hpp">
+      <Filter>Header Files\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="NtWrapper.hpp">
+      <Filter>Header Files\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="UACInterface.hpp">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Wrapper.hpp">
+      <Filter>Header Files\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelbaseWrapper.hpp">
+      <Filter>Header Files\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.hpp">
+      <Filter>Header Files\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="wmicfg.hpp">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="WMIConnection.hpp">
+      <Filter>Header Files\Interfaces\WMI</Filter>
+    </ClInclude>
+    <ClInclude Include="BindingInterface.hpp">
+      <Filter>Header Files\Interfaces\WMI</Filter>
+    </ClInclude>
+    <ClInclude Include="RegInterface.hpp">
+      <Filter>Header Files\Interfaces\WMI</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Interface.hpp">
+      <Filter>Header Files\Interfaces\WMI</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryInterface.hpp">
+      <Filter>Header Files\Interfaces\WMI</Filter>
+    </ClInclude>
+    <ClInclude Include="Cipher.hpp">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFactory.hpp">
+      <Filter>Header Files\Interfaces\WMI</Filter>
+    </ClInclude>
+    <ClInclude Include="WMIFSInterface.hpp">
+      <Filter>Header Files\Interfaces\WMI</Filter>
+    </ClInclude>
+    <ClInclude Include="WMIFS.hpp">
+      <Filter>Header Files\MiniWMI</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAV.hpp">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Persistence.hpp">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoElevation.hpp">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="StringTable.hpp">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="favicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="retrieve-file.ps1">
+      <Filter>Header Files\Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
