@@ -1,4 +1,4 @@
-Proof of concept WMI virus. Does what it looks like it does. Virus isn't stored on the filsystem (in any way an AV would detect), but within the WMI. Contains PoC code for extracting it from the WMI- which can also be achieved at boot from within the WMI itself using powershell. So, self-extracting WMI virus.
+Proof of concept WMI virus. Does what it looks like it does. Virus isn't stored on the filsystem (in any way an AV would detect), but within the WMI. Contains PoC code for extracting it from the WMI- which can also be achieved at boot from within the WMI itself using powershell. So, self-extracting WMI virus that never touches the disk.
 
 Contains a novel privilege escalation technique and some other fun and/or novel stuff. Fully undetected by all antiviruses and sandboxing suites like virustotal. Loads system libraries on-demand, finds function offsets for its hardcoded prototypes, that way all of its system API calls are undetectable. Maybe some more novel AV evasion stuff, its been a while since I wrote it. Think I implemented polymorphism or dynamic runtime string encryption.
 
