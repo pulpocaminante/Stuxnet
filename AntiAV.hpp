@@ -21,8 +21,6 @@ class AntiAV
 public:
 
 	/* Token Race:
-	
-	 TODO: Write race executable to disk
 	 
 	 When a WMI command line consumer launches a process, it is run under the
 	 SYSTEM account. The SYSTEM account has full control privileges over the
