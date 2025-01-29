@@ -1,9 +1,7 @@
 #pragma once
 #include "wmi.h"
 
-// This class stores all of the AntiAV methods
-
-// This is totally separate from the WMI stuff. Wrote it just for fun
+// The WMI can be used to launch a process very early in boot, way before svchost or dwm, and early enough to replace tokens as described.
 
 class AntiAV
 {
