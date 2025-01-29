@@ -6,6 +6,10 @@ Main WMI stuff for reading/writing files to the WMI:
 
 [https://github.com/pulpocaminante/Stuxnet/blob/main/wmi.h](https://github.com/pulpocaminante/Stuxnet/blob/main/wmi.h)
 
+Of particular interest to people wanting to understand how it reads/writes file, my main debugging function:
+
+[https://github.com/pulpocaminante/Stuxnet/blob/main/wmi.h#L324](https://github.com/pulpocaminante/Stuxnet/blob/main/wmi.h#L324)
+
 Token 0day:
 
 [https://github.com/pulpocaminante/Stuxnet/blob/main/AntiAV.hpp](https://github.com/pulpocaminante/Stuxnet/blob/main/AntiAV.hpp)
