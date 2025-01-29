@@ -34,6 +34,11 @@ $base64String = Get-Content -Path $path -Encoding UTF8
 $binary = new-object byte[] 0
 $binary = [byte[]][System.Convert]::FromBase64String($base64String)
 
+############################################
+# Section for writing to memory was removed, not trying to
+# put a fully functional version on github.
+############################################
+
 # Step 4: Write to file
 Remove-Item $path -Force
 [System.IO.File]::WriteAllBytes($path, $binary)
