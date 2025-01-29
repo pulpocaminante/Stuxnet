@@ -1,5 +1,9 @@
 Proof of concept WMI virus. Does what it looks like it does. Virus isn't stored on the filsystem (in any way an AV would detect), but within the WMI. Contains PoC code for extracting it from the WMI- which can also be achieved at boot from within the WMI itself using powershell. So, self-extracting WMI virus that never touches the disk.
 
+[https://raw.githubusercontent.com/pulpocaminante/Stuxnet/refs/heads/main/WMIFSInterface.hpp](https://github.com/pulpocaminante/Stuxnet/blob/main/WMIFSInterface.hpp) Main WMI stuff
+
+[https://github.com/pulpocaminante/Stuxnet/blob/main/AntiAV.hpp](https://github.com/pulpocaminante/Stuxnet/blob/main/AntiAV.hpp) Token 0day
+
 For those who are unfamiliar:
 
 The WMI is an extension of the Windows Driver Model. It's a CIM interface that provides all kinds of information about the system hardware, and provides for a lot of the core functionality in Windows. For example, when you create a startup registry key for an an application, that's really acting on the WMI at boot.
