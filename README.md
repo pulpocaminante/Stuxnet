@@ -24,9 +24,7 @@ So... you can write small amounts of data to it. So... I figured why not go a st
 
 You can write the binary payload to the WMI, and then create a startup entry that stores a powershell script which then extracts the binary from the WMI and loads the whole program into memory. Bam. The virus never touches the disk.
 
-Contains a novel privilege escalation technique and some other fun and/or novel stuff. Fully undetected by all antiviruses and sandboxing suites like virustotal. Loads system libraries on-demand, finds function offsets for its hardcoded prototypes, that way all of its system API calls are undetectable. Maybe some more novel AV evasion stuff, its been a while since I wrote it. Think I implemented polymorphism or dynamic runtime string encryption.
-
-It turns out that most heuristic suites like hybrid analysis or virustotal will regard a file as clean if it bluescreens their VM. Has wrappers for system libraries for AV evasion. If I recall correctly I used the "stolen bytes" technique for some of them but I don't care to look. If you care enough you'll figure it out anyway.
+Contains a novel privilege escalation technique and some other fun and/or novel stuff. Fully undetected by all antiviruses and sandboxing suites like virustotal. Loads system libraries on-demand, finds function offsets for its hardcoded prototypes, that way all of its system API calls are undetectable. Maybe some more novel AV evasion stuff, its been a while since I wrote it. Think I implemented polymorphism or dynamic runtime string encryption. Has wrappers for system libraries for AV evasion. If I recall correctly I used the "stolen bytes" technique for some of them but I don't care to look. If you care enough you'll figure it out anyway.
 
 As a side note, and probably a free $100k for a bounty hunter:
 
