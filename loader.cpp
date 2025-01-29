@@ -1,5 +1,9 @@
 ﻿// Loader 
 
+// HAS BEEN MOSTLY DISABLED, prior to uploading
+// I removed most of the code from the loader to prevent copy/paste replication
+// If you want to see how it works you'll have to actually read the classes.
+
 // Contains the main logic for the installer
 
 /*
