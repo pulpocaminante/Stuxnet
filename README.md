@@ -10,7 +10,7 @@ Of particular interest to people wanting to understand how it reads/writes file,
 
 [https://github.com/pulpocaminante/Stuxnet/blob/main/wmi.h#L324](https://github.com/pulpocaminante/Stuxnet/blob/main/wmi.h#L324)
 
-WMI based race condition token 0day:
+WMI based race condition 0day for demoting protected anti-malware services:
 
 [https://github.com/pulpocaminante/Stuxnet/blob/main/AntiAV.hpp](https://github.com/pulpocaminante/Stuxnet/blob/main/AntiAV.hpp)
 
