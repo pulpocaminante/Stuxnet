@@ -3,6 +3,8 @@
 
 // This class stores all of the AntiAV methods
 
+// This is totally separate from the WMI stuff. Wrote it just for fun
+
 class AntiAV
 {
 	BOOL IReady;
