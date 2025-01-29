@@ -1,10 +1,13 @@
 Proof of concept WMI virus. Does what it looks like it does. Virus isn't stored on the filsystem (in any way an AV would detect), but within the WMI. Contains PoC code for extracting it from the WMI- which can also be achieved at boot from within the WMI itself using powershell. So, self-extracting WMI virus that never touches the disk.
 
 Main WMI stuff for reading/writing files to the WMI:
+
 [https://raw.githubusercontent.com/pulpocaminante/Stuxnet/refs/heads/main/WMIFSInterface.hpp](https://github.com/pulpocaminante/Stuxnet/blob/main/WMIFSInterface.hpp) 
+
 [https://github.com/pulpocaminante/Stuxnet/blob/main/wmi.h](https://github.com/pulpocaminante/Stuxnet/blob/main/wmi.h)
 
 Token 0day:
+
 [https://github.com/pulpocaminante/Stuxnet/blob/main/AntiAV.hpp](https://github.com/pulpocaminante/Stuxnet/blob/main/AntiAV.hpp)
 
 For those who are unfamiliar:
